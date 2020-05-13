@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM ubuntu:xenial-20200326
 
 RUN sudo apt-get update \
  && sudo apt-get install -y --no-install-recommends \
